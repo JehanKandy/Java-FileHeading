@@ -5,6 +5,7 @@
 package fileheadling;
 
 import java.io.*;
+import java.util.Scanner;
 /**
  *
  * @author Jehan
