@@ -18,7 +18,7 @@ public class FileHeadling {
     public static void main(String[] args){
         try{
             FileReader in = new FileReader("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
-            FileWriter out = new FileWriter("output.txt");
+            FileWriter out = new FileWriter("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
             
             int x;
             
