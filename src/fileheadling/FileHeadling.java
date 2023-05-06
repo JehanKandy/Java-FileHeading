@@ -28,6 +28,11 @@ public class FileHeadling {
             Scanner infileScan = new Scanner(infile);
             
             FileWriter outfile = new FileWriter("G:\\\\JAVA\\\\Projects\\\\fileHeadling\\\\build\\\\classes\\\\fileheadling\\\\output.txt");
+        
+            while(infileScan.hasNextLine()){
+                
+            }
+                
             
         }
         catch(IOException e){
