@@ -14,24 +14,27 @@ public class FileHeadling {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) {
         
         try{
             File readFile = new File("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
             Scanner myReader = new Scanner(readFile); 
             
             FileWriter outfile = new FileWriter("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
-            
+            //FileWriter myWriter = new FileWriter("filename.txt");
             while(myReader.hasNextLine()){
                 String data = myReader.nextLine();
-                System.out.println(data);
+                outfile.write(data);
+                
+                System.out.println("Copied.");
             }
             myReader.close();
             
         }
-        catch(FileNotFoundException e){
+        catch(IOException e){
              System.out.println("An error occurred.");
         }
             
