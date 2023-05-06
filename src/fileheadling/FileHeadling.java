@@ -6,6 +6,7 @@ package fileheadling;
 
 import java.io.*;
 import java.util.Scanner;
+
 /**
  *
  * @author Jehan
@@ -14,7 +15,7 @@ public class FileHeadling {
 
     /**
      * @param args the command line arguments
-     * @throws java.io.IOException
+     * 
      */
 
     public static void main(String[] args) {
