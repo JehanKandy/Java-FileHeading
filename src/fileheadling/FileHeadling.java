@@ -29,6 +29,10 @@ public class FileHeadling {
             while ((n = in.read()) != -1) {
                 out.write(n);
             }
+            System.out.println("File Copied");
+            
+            in.close();
+            out.close();
             
         }
         catch(IOException e){
