@@ -20,7 +20,17 @@ public class FileHeadling {
         
         try{
             File readFile = new File("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
+            Scanner myReader = new Scanner(readFile); 
             
+            while(myReader.hasNextLine()){
+                String data = myReader.nextLine();
+                System.out.println(data);
+            }
+            myReader.close();
+            
+        }
+        catch(FileNotFoundException e){
+             System.out.println("An error occurred.");
         }
             
     }
