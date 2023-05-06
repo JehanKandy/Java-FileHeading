@@ -20,25 +20,7 @@ public class FileHeadling {
 
     public static void main(String[] args) {
         
-        try{
-            File readFile = new File("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
-            Scanner myReader = new Scanner(readFile); 
-            
-            //FileWriter outfile = new FileWriter("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
-            FileWriter myWriter = new FileWriter("output.txt");
-            while(myReader.hasNextLine()){
-                String data = myReader.nextLine();
-                myWriter.write(data);
-                
-                System.out.println("Copied.");
-            }
-            myReader.close();
-            myWriter.close();
-        }
-        catch(IOException e){
-             System.out.println("An error occurred.");
-        }
-            
+        
     }
     
 }
