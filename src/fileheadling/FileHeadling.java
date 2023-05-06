@@ -16,24 +16,7 @@ public class FileHeadling {
      */
 
     public static void main(String[] args){
-        try{
-            FileReader in = new FileReader("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
-            FileWriter out = new FileWriter("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
-            
-            int x;
-            
-            while((x = in.read()) !=-1 ){
-               out.write(x);
-            }
-            
-            in.close();
-            out.close();
-            
-            System.out.println("File Successfully Copied..!");
-        }
-        catch(IOException e){
-            System.out.println("ERROR : " + e.getMessage());
-        }
+       
             
     }
     
