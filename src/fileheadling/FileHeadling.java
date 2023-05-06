@@ -5,7 +5,7 @@
 package fileheadling;
 
 import java.io.*;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  *
@@ -20,7 +20,12 @@ public class FileHeadling {
 
     public static void main(String[] args) {
         
-        
+        try{
+            
+        }
+        catch(IOException e){
+            
+        }
     }
     
 }
