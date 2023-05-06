@@ -21,23 +21,23 @@ public class FileHeadling {
     public static void main(String[] args) {
         
         try{
-            //FileInputStream in = new FileInputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
-            //FileOutputStream out = new FileOutputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
+            FileInputStream in = new FileInputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
+            FileOutputStream out = new FileOutputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
             
-            File infile = new File("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
-            Scanner infileScan = new Scanner(infile);
-            
-            FileWriter outfile = new FileWriter("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
-        
-            while(infileScan.hasNextLine()){
-                String data = infileScan.nextLine();
-                outfile.write(data);              
-                
-            }
-            
-            outfile.close();
-            
-            System.out.println("The FIle is Successfully Wrote");  
+//            File infile = new File("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
+//            Scanner infileScan = new Scanner(infile);
+//            
+//            FileWriter outfile = new FileWriter("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
+//        
+//            while(infileScan.hasNextLine()){
+//                String data = infileScan.nextLine();
+//                outfile.write(data);              
+//                
+//            }
+//            
+//            outfile.close();
+//            
+//            System.out.println("The FIle is Successfully Wrote");  
             
 
             
