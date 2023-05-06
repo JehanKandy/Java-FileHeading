@@ -23,8 +23,10 @@ public class FileHeadling {
             int x;
             
             while((x = in.read()) !=-1){
-                
+               out.write(x);
             }
+            
+            
         }
         catch(IOException e){
             System.out.println("ERROR : " + e.getMessage());
