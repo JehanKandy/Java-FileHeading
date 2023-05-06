@@ -23,6 +23,13 @@ public class FileHeadling {
         try{
             FileInputStream in = new FileInputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
             FileOutputStream out = new FileOutputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
+            
+            int n; 
+
+            while ((n = in.read()) != -1) {
+                out.write(n);
+            }
+            
         }
         catch(IOException e){
             
