@@ -30,7 +30,7 @@ public class FileHeadling {
             FileWriter outfile = new FileWriter("G:\\\\JAVA\\\\Projects\\\\fileHeadling\\\\build\\\\classes\\\\fileheadling\\\\output.txt");
         
             while(infileScan.hasNextLine()){
-                
+                String data = infileScan.nextLine();
             }
                 
             
