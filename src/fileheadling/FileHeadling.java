@@ -20,7 +20,10 @@ public class FileHeadling {
             FileReader in = new FileReader("input.txt");
             FileWriter out = new FileWriter("output.txt");
         }
-        
+        catch(IOException e){
+            System.out.println("ERROR : " + e.getMessage());
+        }
+            
     }
     
 }
