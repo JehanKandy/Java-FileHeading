@@ -21,18 +21,10 @@ public class FileHeadling {
     public static void main(String[] args) {
         
         try{
-            FileInputStream in = new FileInputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
-            FileOutputStream out = new FileOutputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
+            //FileInputStream in = new FileInputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
+            //FileOutputStream out = new FileOutputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
             
-            int n; 
 
-            while ((n = in.read()) != -1) {
-                out.write(n);
-            }
-            System.out.println("File Copied");
-            
-            in.close();
-            out.close();
             
         }
         catch(IOException e){
