@@ -31,7 +31,12 @@ public class FileHeadling {
         
             while(infileScan.hasNextLine()){
                 String data = infileScan.nextLine();
+                outfile.write(data);
+                
+                System.out.println("The FIle is Successfully Wrote");
             }
+            
+                     
                 
             
         }
