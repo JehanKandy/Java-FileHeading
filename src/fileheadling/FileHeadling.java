@@ -17,12 +17,12 @@ public class FileHeadling {
 
     public static void main(String[] args){
         try{
-            FileReader in = new FileReader("input.txt");
+            FileReader in = new FileReader("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
             FileWriter out = new FileWriter("output.txt");
             
             int x;
             
-            while((x = in.read()) !=-1){
+            while((x = in.read()) !=-1 ){
                out.write(x);
             }
             
