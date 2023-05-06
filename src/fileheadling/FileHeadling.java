@@ -26,7 +26,10 @@ public class FileHeadling {
                out.write(x);
             }
             
+            in.close();
+            out.close();
             
+            System.out.println("File Successfully Copied..!");
         }
         catch(IOException e){
             System.out.println("ERROR : " + e.getMessage());
