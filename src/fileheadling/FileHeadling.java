@@ -27,6 +27,8 @@ public class FileHeadling {
             File infile = new File("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
             Scanner infileScan = new Scanner(infile);
             
+            FileWriter outfile = new FileWriter("G:\\\\JAVA\\\\Projects\\\\fileHeadling\\\\build\\\\classes\\\\fileheadling\\\\output.txt");
+            
         }
         catch(IOException e){
             
