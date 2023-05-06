@@ -40,12 +40,9 @@ public class FileHeadling {
 //            System.out.println("The FIle is Successfully Wrote");  
             
             int n;
-  
-            // read() function to read the
-            // byte of data
+
             while ((n = in.read()) != -1) {
-                // write() function to write
-                // the byte of data
+
                 out.write(n);
             }
 
