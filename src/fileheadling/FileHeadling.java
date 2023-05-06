@@ -21,7 +21,8 @@ public class FileHeadling {
     public static void main(String[] args) {
         
         try{
-            
+            FileInputStream in = new FileInputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
+            FileOutputStream out = new FileOutputStream("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
         }
         catch(IOException e){
             
