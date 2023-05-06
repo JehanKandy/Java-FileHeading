@@ -19,6 +19,12 @@ public class FileHeadling {
         try{
             FileReader in = new FileReader("input.txt");
             FileWriter out = new FileWriter("output.txt");
+            
+            int x;
+            
+            while((x = in.read()) !=-1){
+                
+            }
         }
         catch(IOException e){
             System.out.println("ERROR : " + e.getMessage());
