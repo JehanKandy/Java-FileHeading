@@ -19,7 +19,8 @@ public class FileHeadling {
     public static void main(String[] args){
         
         try{
-        
+            File readFile = new File("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
+            
         }
             
     }
