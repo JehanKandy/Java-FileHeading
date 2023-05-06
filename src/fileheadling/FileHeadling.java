@@ -24,16 +24,16 @@ public class FileHeadling {
             File readFile = new File("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\input.txt");
             Scanner myReader = new Scanner(readFile); 
             
-            FileWriter outfile = new FileWriter("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
-            //FileWriter myWriter = new FileWriter("filename.txt");
+            //FileWriter outfile = new FileWriter("G:\\JAVA\\Projects\\fileHeadling\\build\\classes\\fileheadling\\output.txt");
+            FileWriter myWriter = new FileWriter("output.txt");
             while(myReader.hasNextLine()){
                 String data = myReader.nextLine();
-                outfile.write(data);
+                myWriter.write(data);
                 
                 System.out.println("Copied.");
             }
             myReader.close();
-            outfile.close();
+            myWriter.close();
         }
         catch(IOException e){
              System.out.println("An error occurred.");
